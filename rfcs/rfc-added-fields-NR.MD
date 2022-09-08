@@ -7,7 +7,7 @@
 
 # Summary
 
-consumption date and corp_num of entity were not copied from NRO to Namex. Figured out where they missed and fix them in codes and SQL
+consumption date and corp_num of entity were not cop Figured out where they missed and fix them in codes and SQL
 
 # Basic example
 
