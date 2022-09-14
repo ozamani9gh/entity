@@ -54,26 +54,24 @@ Staff Feedback Interface:
 - Hotjar
 1) Pricing/User (Patrick, can you fill this in, current price, and price per application)
 2) How to manage the Feedback - Currently emails are being sent to staff with feedback.  Not sure what percent is actioned.
-3) Very low integration time and Maintenance
+3) Very low integration time and Maintenance (1 SRE Member)
 
 - CCII
 
 1) FormsFlow.io is free to use currently, may have cost for Service Delivery if purchased for entire ministry
-2) How to manage the Feedback - Service BC already manages all the feedback data and formsflow, we would implement a coordinated Feedback Data Warehouse/Reporting strategy
+2) How to manage the Feedback - Service BC already manages all the feedback data, we would implement a coordinated Feedback Data Warehouse/Reporting strategy
 3) AOT Developer maybe needed for Integration Time and Maintenance (1 FTE/Contractor needed)
 
 - Google Forms
 
 1) We already have Google Workspace licence.  Patrick would we need one per developer, multiply current cost by number of developers creating forms.
-2) UI Friendly - Yes
-3) How to manage the Feedback - would need to create Data Warehouse/Data Lake on GCP to store all the feedback
-4) Medium Integration Time and Maintenance (1 FTE/Contractor needed)
+2) How to manage the Feedback - would need to create Data Warehouse/Data Lake on GCP to store all the feedback
+3) Medium Integration Time and Maintenance (1 FTE/Contractor needed)
 
 - Microsoft Forms
 1) Part of Office 365 - can be accessed through the web
-2) Creating Simple Forms - Responses would be store online (not in DB)
-3) How to manage the Feedback - would need to create Data Warehouse/Data Lake on GCP (or openshift PostgresSql DB) to store all the feedback
-4) Medium Integration Time and Maintenance (1 FTE/Contractor needed)
+2) How to manage the Feedback - would need to create Data Warehouse/Data Lake on GCP (or openshift PostgresSql DB) to store all the feedback
+3) Medium Integration Time and Maintenance (1 FTE/Contractor needed)
 
 **Decision required**
 To make a decision whether to keep Hotjar, or implement a new solution CCII, Google Forms, or Microsoft Forms.
@@ -84,7 +82,7 @@ The _SRE_ team will create a story to implement the required components across a
 
 # Unresolved questions
 
-N/A
+CCII Team at Service Delivery is implementing a Division Wide Solution, that would include BC Registries, not sure about TimeTable.
 
 # Thanks
 
